@@ -1,3 +1,5 @@
+import { FormattedMessage } from "react-intl";
+
 import Blog from "./components/Blog";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
@@ -9,6 +11,7 @@ import Work from "./components/Work";
 function App() {
   return (
     <div className="min-h-screen bg-orange-100 text-orange-900 overflow-hidden">
+      <FormattedMessage id="navbar.me"></FormattedMessage>
       <Navbar />
 
       <Hero />

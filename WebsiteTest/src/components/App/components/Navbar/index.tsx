@@ -1,5 +1,8 @@
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import "../../../../common/index.css";
+import { FormattedMessage } from "react-intl";
 
 export default function Navbar() {
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
@@ -28,31 +31,31 @@ export default function Navbar() {
               href="#hero"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              Hero
+              <FormattedMessage id="navbar.hero"></FormattedMessage>
             </a>
             <a
               href="#me"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              Me
+              <FormattedMessage id="navbar.me"></FormattedMessage>
             </a>
             <a
               href="#work"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              Work
+              <FormattedMessage id="navbar.work"></FormattedMessage>
             </a>
             <a
               href="#features"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              Features
+              <FormattedMessage id="navbar.features"></FormattedMessage>
             </a>
             <a
               href="#blog"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              Blog
+              <FormattedMessage id="navbar.blog"></FormattedMessage>
             </a>
           </div>
 
