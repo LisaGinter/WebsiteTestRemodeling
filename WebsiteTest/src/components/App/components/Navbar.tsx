@@ -1,7 +1,6 @@
 import { Menu, X } from "lucide-react";
-import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-import "../../../../common/index.css";
+import { useState } from "react";
+import "../../../common/index.css";
 import { FormattedMessage } from "react-intl";
 
 export default function Navbar() {
@@ -80,35 +79,35 @@ export default function Navbar() {
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              Hero
+              <FormattedMessage id="navbar.hero"></FormattedMessage>
             </a>
             <a
               href="#me"
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              Me
+              <FormattedMessage id="navbar.me"></FormattedMessage>
             </a>
             <a
               href="#work"
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              Work
+              <FormattedMessage id="navbar.work"></FormattedMessage>
             </a>
             <a
               href="#features"
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              Features
+              <FormattedMessage id="navbar.features"></FormattedMessage>
             </a>
             <a
               href="#blog"
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              Blog
+              <FormattedMessage id="navbar.blog"></FormattedMessage>
             </a>
           </div>
         </div>

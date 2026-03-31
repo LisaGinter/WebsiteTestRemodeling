@@ -7,5 +7,7 @@ export default {
     "navbar.features": "FÄHIGKEITEN",
     "navbar.blog": "BLOG",
     "navbar.hero": "HOME",
+
+    "hero.code-editor-header": "Lisa Ginter Coding",
   },
 };
