@@ -36,7 +36,7 @@ export default function Hero() {
         <div className="max-w-7xl mx-auto flex flex-col lg:grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center relative">
           {/* description */}
           <div>
-            <div>
+            <div className="inline-flex items-center space-x-2 px-3 sm:px-4 py-2 bg-orange-500/10 border border-orange-500/20 rounded-full mb-4 sm:mb-6 animate-in slide-in-from-bot duration-700">
               <Sparkles />
               <span>
                 <FormattedMessage id="hero.intro.header"></FormattedMessage>

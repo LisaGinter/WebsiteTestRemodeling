@@ -12,12 +12,26 @@
   .slide-in-from-bot {
     animation-name: slideInFromBot;
   }
+  .duration-200 {
+    animation-duration: 200ms;
+  }
   .duration-300 {
-    animation-delay: 300ms;
+    animation-duration: 300ms;
   }
 
   .duration-700 {
-    animation-delay: 700ms;
+    animation-duration: 700ms;
+  }
+  .delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .delay-300 {
+    animation-delay: 300ms;
   }
 
   .scrollbar-thin {
@@ -41,7 +55,7 @@
 @keyframes slideInFromTop {
   from {
     opacity: 0;
-    transform: translateY(-1rem);
+    transform: translateY(1rem);
   }
 
   to {
@@ -53,11 +67,11 @@
 @keyframes slideInFromBot {
   from {
     opacity: 0;
-    transform: translateY(0);
+    transform: translateY(-1rem);
   }
 
   to {
     opacity: 1;
-    transform: translateY(1rem);
+    transform: translateY(0);
   }
 }

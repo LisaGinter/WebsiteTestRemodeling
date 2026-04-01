@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import "../../../common/index.css";
+import "../index.css";
 import { FormattedMessage } from "react-intl";
 
 export default function Navbar() {
