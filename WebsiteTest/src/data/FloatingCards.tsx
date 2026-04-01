@@ -1,0 +1,32 @@
+export const floatingCards = {
+  "App.tsx": {
+    bgColor: "bg-orange-800/30",
+    iconColor: "text-orange-400",
+    textColor: "text-orange-200",
+    contentColor: "text-orange-300",
+    id: "app",
+    icon: "APP",
+    title: "The Website",
+    content: "The whole website contatining all components",
+  },
+  "Navbar.tsx": {
+    bgColor: "bg-red-900/40",
+    iconColor: "text-red-800",
+    textColor: "text-red-100",
+    contentColor: "text-rose-200",
+    id: "navbar",
+    icon: "NAV",
+    title: "The wesite navigation",
+    content: "Contains all navigation elements for both web and mobile",
+  },
+  "Provider.tsx": {
+    bgColor: "bg-amber-800/30",
+    iconColor: "text-amber-400",
+    textColor: "text-amber-200",
+    contentColor: "text-amber-300",
+    id: "provider",
+    icon: "PROV",
+    title: "Provides different languages",
+    content: "Allows to display this website in all of the given languages",
+  },
+};
