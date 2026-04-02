@@ -35,5 +35,7 @@ export default {
 
     "features.codesnippet.titel3": "Das letzte Beispiel",
     "features.codesnippet.beschreibung3": "Ist das nicht cool?",
+
+    "footer.impressum": "Impressum",
   },
 };

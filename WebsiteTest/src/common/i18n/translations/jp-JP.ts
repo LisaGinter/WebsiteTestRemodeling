@@ -36,5 +36,7 @@ export default {
 
     "features.codesnippet.titel3": "最後の例",
     "features.codesnippet.beschreibung3": "やばいね?",
+
+    "footer.impressum": "データ保護と連絡先",
   },
 };

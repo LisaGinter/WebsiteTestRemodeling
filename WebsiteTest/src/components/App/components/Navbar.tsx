@@ -2,6 +2,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import "../index.css";
 import { FormattedMessage } from "react-intl";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
@@ -26,36 +27,36 @@ export default function Navbar() {
 
           {/* Nav Links */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
-            <a
-              href="#hero"
+            <Link
+              to="/"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
               <FormattedMessage id="navbar.hero"></FormattedMessage>
-            </a>
-            <a
-              href="#me"
+            </Link>
+            <Link
+              to="/me"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
               <FormattedMessage id="navbar.me"></FormattedMessage>
-            </a>
-            <a
-              href="#work"
+            </Link>
+            <Link
+              to="/work"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
               <FormattedMessage id="navbar.work"></FormattedMessage>
-            </a>
-            <a
-              href="#skills"
+            </Link>
+            <Link
+              to="/skills"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
               <FormattedMessage id="navbar.skills"></FormattedMessage>
-            </a>
-            <a
-              href="#blog"
+            </Link>
+            <Link
+              to="/blog"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
               <FormattedMessage id="navbar.blog"></FormattedMessage>
-            </a>
+            </Link>
           </div>
 
           <button

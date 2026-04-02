@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@layer theme, base, components, utilities;
+@import "./app.css" layer(theme);
 
 @layer utilities {
   .animate-in {

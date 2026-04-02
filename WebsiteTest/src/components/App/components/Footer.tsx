@@ -1,4 +1,5 @@
 import { FormattedMessage } from "react-intl";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   <script
@@ -28,9 +29,9 @@ export default function Footer() {
       </span>
       <span>
         <div>
-          <a href="/src/pages/impressum-datenschutz.html">
+          <Link to="/impressum">
             <FormattedMessage id="footer.impressum"></FormattedMessage>
-          </a>
+          </Link>
         </div>
       </span>
     </div>
