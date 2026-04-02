@@ -6,7 +6,7 @@ import Blog from "./components/Blog";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Work from "./components/Work";
-import Features from "./components/Features";
+import skills from "./components/skills";
 import Me from "./components/Me";
 import Footer from "./components/Footer";
 
@@ -17,7 +17,7 @@ function App() {
       <Navbar />
 
       <Hero />
-      <Features />
+      <skills />
       <Work />
       <Me />
       <Blog />
@@ -78,10 +78,10 @@ export default function Navbar() {
               <FormattedMessage id="navbar.work"></FormattedMessage>
             </a>
             <a
-              href="#features"
+              href="#skills"
               className="text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              <FormattedMessage id="navbar.features"></FormattedMessage>
+              <FormattedMessage id="navbar.skills"></FormattedMessage>
             </a>
             <a
               href="#blog"
@@ -129,11 +129,11 @@ export default function Navbar() {
               <FormattedMessage id="navbar.work"></FormattedMessage>
             </a>
             <a
-              href="#features"
+              href="#skills"
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-orange-800 hover:text-orange-400 text-sm lg:text-base"
             >
-              <FormattedMessage id="navbar.features"></FormattedMessage>
+              <FormattedMessage id="navbar.skills"></FormattedMessage>
             </a>
             <a
               href="#blog"

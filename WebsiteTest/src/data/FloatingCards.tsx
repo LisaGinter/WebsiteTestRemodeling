@@ -1,6 +1,6 @@
 export const floatingCards = {
   "App.tsx": {
-    bgColor: "bg-orange-800/30",
+    bgColor: "bg-orange-800/50",
     iconColor: "text-orange-400",
     textColor: "text-orange-200",
     contentColor: "text-orange-300",
@@ -10,17 +10,17 @@ export const floatingCards = {
     content: "The whole website contatining all components",
   },
   "Navbar.tsx": {
-    bgColor: "bg-red-900/40",
-    iconColor: "text-red-800",
-    textColor: "text-red-100",
-    contentColor: "text-rose-200",
+    bgColor: "bg-yellow-800/50",
+    iconColor: "text-yellow-400",
+    textColor: "text-yellow-200",
+    contentColor: "text-yellow-300",
     id: "navbar",
     icon: "NAV",
     title: "The wesite navigation",
     content: "Contains all navigation elements for both web and mobile",
   },
   "Provider.tsx": {
-    bgColor: "bg-amber-800/30",
+    bgColor: "bg-amber-800/50",
     iconColor: "text-amber-400",
     textColor: "text-amber-200",
     contentColor: "text-amber-300",

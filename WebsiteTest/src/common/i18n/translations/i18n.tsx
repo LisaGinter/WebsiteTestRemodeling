@@ -15,7 +15,7 @@ i18n.use(initReactI18next).init({
         navbar: {
           me: "ME",
           work: "WORK",
-          features: "SKILLS",
+          skills: "SKILLS",
           blog: "BLOG",
           hero: "HOME",
         },
@@ -26,7 +26,7 @@ i18n.use(initReactI18next).init({
         navbar: {
           me: "ÜBER MICH",
           work: "MEINE PROJEKET",
-          features: "FÄHIGKEITEN",
+          skills: "FÄHIGKEITEN",
           blog: "BLOG",
           hero: "HOME",
         },
